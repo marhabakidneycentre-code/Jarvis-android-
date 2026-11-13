@@ -128,7 +128,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun handleSpeech(said: String) {
-        val lower = said.lowercase(Locale.US).trim()
+        val lower = said.lowercase().trim()
         if (!lower.startsWith("jarvis")) {
             status.text = "Heard: \"$said\". Start with Jarvis."
             return
