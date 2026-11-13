@@ -1,6 +1,6 @@
 package com.jarvis.assistant
 
-import android.Intent
+import android.content.Intent
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build
